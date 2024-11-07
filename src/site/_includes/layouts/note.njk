@@ -15,17 +15,14 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
-    
-    {% if settings.dgShowFileTree !== true %}
+        {% if settings.dgShowFileTree !== true %}
       {%include "components/navbar.njk"%}
     {%else%}
       {%include "components/filetree.njk"%}
     {% endif %}
-
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-
     <main class="content cm-s-obsidian {{contentClasses}}">
       <header>
         {% if settings.dgShowInlineTitle === true %}
@@ -73,13 +70,14 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
       {% for imp in dynamics.notes.afterContent %}
         {% include imp %}
+      {% endfor %}  
+      {% for imp in dynamics.notes.footer %}
+        {% include imp %}
       {% endfor %}
     </main>
-
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
     {% endif %}
-
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
@@ -88,9 +86,5 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
-    {% for imp in dynamics.notes.footer %}
-      {% include imp %}
-    {% endfor %}
-    {%include "components/lucideIcons.njk"%}
   </body>
 </html>
