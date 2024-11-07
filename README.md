@@ -1,9 +1,9 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
+### obsidian插件
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
+插件名称：Digital Garden
 
----
-## Docs
-Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
+插件说明：将你的笔记发布到数字花园，供他人欣赏。
+
+概述
+Obsidian Digital Garden 是一个插件，可以将笔记发布到网络上，免费创建个人数字花园。插件功能包括 Markdown 语法、链接其他笔记、Dataview 查询、反向链接、主题设置、本地图、文件树导航、全局搜索等。用户可以自定义样式和修改网站代码。通过简单设置，用户可以快速创建数字花园，并在其中添加和发布笔记。插件提供了详细的设置和操作指南，帮助用户快速上手，定制个人数字花园。
+
