@@ -5,10 +5,10 @@
 ## 总览
 | 笔记库统计                        |
 | ---------------------------- |
-| 库中共有614个页面，总计约418万字节（3.99MB） |
+| 库中共有612个页面，总计约333万字节（3.17MB） |
 
 { .block-language-dataview}
-<p><span><strong>Obsidian</strong><mark>笔记</mark>总数 <strong>614</strong> 篇，其中<mark>私有笔记</mark> <strong>507</strong> 篇，分享<mark>博客笔记</mark> <strong>107</strong> 篇，<mark>标签</mark> <strong>23</strong>个</span></p>
+<p><span><strong>Obsidian</strong><mark>笔记</mark>总数 <strong>612</strong> 篇，其中<mark>私有笔记</mark> <strong>505</strong> 篇，分享<mark>博客笔记</mark> <strong>107</strong> 篇，<mark>标签</mark> <strong>23</strong>个</span></p>
 
 ## 最近修改
 | 标题                                                     | 时间                 |
